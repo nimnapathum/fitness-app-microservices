@@ -50,4 +50,8 @@ public class UserService {
         userResponse.setUpdatedAt(user.getUpdatedAt());
         return userResponse;
     }
+
+    public Boolean existsByUserId(String userId) {
+        return repository.existsById(userId);
+    }
 }
