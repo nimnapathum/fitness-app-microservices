@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-252.26830.84">
+    <data-source name="fitness-app-user-db@localhost" uuid="a2fd5a6d-006b-44df-b741-fa41d706756c">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" />
+      <user-name>postgres</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="@fitness-app.cuymm05.mongodb.net" uuid="54c62230-cf59-4dd1-823d-cb335838eb2b">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MONGO" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>nimnabusiness1280_db_user</user-name>
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>
