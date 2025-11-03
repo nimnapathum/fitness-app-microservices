@@ -3,7 +3,6 @@ package com.fitness.ai_service.controller;
 import com.fitness.ai_service.model.Recommendation;
 import com.fitness.ai_service.service.RecommendationService;
 import lombok.RequiredArgsConstructor;
-import org.apache.coyote.Response;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
