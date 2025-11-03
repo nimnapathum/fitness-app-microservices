@@ -1,31 +1,5 @@
 spring:
   application:
     name: ai-service
-  data:
-    mongodb:
-      uri: mongodb+srv://nimnabusiness1280_db_user:7zXcj4OebVBXTnzf@fitness-app.cuymm05.mongodb.net/fitness-recommendations?retryWrites=true&w=majority
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
-server:
-  port: 8083
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka
-
-rabbitmq:
-  exchange:
-    name: fitness.exchange
-  queue:
-    name: activity.queue
-  routing:
-    key: activity.tracking
-
-gemini:
-  api:
-    url: ${GEMINI_API_URL}
-    key: ${GEMINI_API_KEY}
+  config:
+    import: optional:configserver:http://localhost:8888
